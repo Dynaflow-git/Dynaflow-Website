@@ -522,4 +522,19 @@ width: 100%;
              }
          }
      }
+
+
+      /* footer */
+
+     footer {
+        max-width: 100%;
+        height: auto;
+     }
+
+     .container{
+        max-width: 100%;
+        height: auto;
+     }
  }
+
+
