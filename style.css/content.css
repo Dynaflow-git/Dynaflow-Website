@@ -12,7 +12,7 @@ height: 20rem;
 
 footer {
 max-width: 100%;
-height: 20rem;
+height: auto;
 justify-content: center;
 align-items: center;
 margin:0 auto;
@@ -41,10 +41,15 @@ width: 100%;
 padding: 5%
 
 }
+
+.footer-logo{
+   width: 15rem;
+}
 .touchmenot button{
 height: 40px;
 width: 32%;
 font-size: 16px;
+background-color: #242424;
 }
 .touchmenot p{
    font-weight: lighter;
@@ -62,6 +67,13 @@ box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 
 .card{
 color: #ffff;
 padding: 10%;
+height: auto;
+}
+.card-body{
+   margin: 0 auto;
+   padding: 0;
+   height: auto;
+   text-align: ;
 }
 
 .orange{
