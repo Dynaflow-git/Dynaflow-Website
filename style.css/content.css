@@ -5,12 +5,107 @@ max-width: 100%;
 height: auto;
 }
 
-.content{
-height: 80vh;
+.hero-image{
+height: 100vh;
 width: 100%;
+position: relative;
 background-color: #555;
 }
+
+@media (min-width: 1200px) {
+   .hero-image .icon-boxes:before {
+     content: "";
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: calc(25% + 20px);
+     background-color: #fff;
+   }
+ }
+ .row{
+   align-content: center;
+   text-align: center;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   padding: 0;
+   width: 100%;
+ }
+
+ .icon-box{
+   flex: 1;
+   box-sizing: border-box;
+   background-color: #acacac;
+   max-width: 25%;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+ }
+
+ .hero-image .icon-box {
+
+   margin-top: 250%;
+   padding: 0px 100px;
+   position: relative;
+   overflow: hidden;
+   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
+   transition: all 0.3s ease-in-out;
+   border-radius: 8px;
+   z-index: 1;
+   height: 40%;
+   width: 100%;
+   text-align: center;
+
+ }
+ 
+ 
+.hero-image .icon-box .title a {
+   color: var(--color-third);
+   transition: 0.3s;
+   font-weight: lighter;
+   text-align: center;
+ }
+ 
+ .hero-image .icon-box .icon {
+   display: inline-block;
+   transition: all 0.3s ease-in-out;
+   font-size: 48px;
+ }
+ 
+.hero-image .icon-box:hover {
+  background-color: #555;
+ }
+ 
+.hero-image .icon-box:hover .title a,
+.hero-image .icon-box:hover .icon {
+   color: #555;
+ }
 /* body */
+
+.about{
+   max-width: 100%;
+   height: 100vh;
+   background-color: #ecf3fe;
+}
+
+.column1, .col{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.column1{
+   height: 100vh;
+}
+
+.VM-content{
+   width: 100%;
+   height: 50vh;
+   background-color: #242424;
+}
+
+
 
 
 /* footer */
@@ -73,11 +168,12 @@ color: #ffff;
 padding: 10%;
 height: auto;
 }
+
 .card-body{
    margin: 0 auto;
    padding: 0;
    height: auto;
-   text-align: ;
+   text-align: center;
 }
 
 .orange{
