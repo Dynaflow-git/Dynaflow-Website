@@ -1,25 +1,73 @@
 body{
-    margin: 0 auto;
-    padding: 0;
-    max-width: 100%;
-    height: auto;
+margin: 0 auto;
+padding: 0;
+max-width: 100%;
+height: auto;
+}
+
+.content{
+height: 20rem;
 }
 
 
 footer {
-    max-width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    margin:0 auto;
-    background-color: #070D1F;
- }
+max-width: 100%;
+height: 20rem;
+justify-content: center;
+align-items: center;
+margin:0 auto;
+background-color: #242424;
+text-align: center;
+padding: 0;
+}
 
- .container{
-    max-width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto ;
- }
+.container{
+max-width: 100%;
+height: auto;
+justify-content: center;
+align-items: center;
+margin: 0 auto ;
+text-align: center;
+}
 
+.touchmenot{
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+text-align: center;
+background-color: #ecf3fe;
+height: auto;
+width: 100%;
+padding: 5%
+
+}
+.touchmenot button{
+height: 40px;
+width: 32%;
+font-size: 16px;
+}
+.touchmenot p{
+   font-weight: lighter;
+}
+
+.input-group input{
+width: 300px;
+margin-bottom: 20px;
+height:30px;
+border-radius: 10px;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.card{
+color: #ffff;
+padding: 10%;
+}
+
+.orange{
+   color: #fc5e09;
+}
+
+.card-title{
+   font-size: 20px;
+}
