@@ -145,25 +145,7 @@
      cursor: pointer;
  }
 
- /* .nav__img {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-pack: center;
--ms-flex-pack: center;
-justify-content: center;
-padding-top: .25rem;
-margin-bottom: .8rem;
-width: 56px;
-height: 56px;
-background-color: var(--first-color);
-border-radius: 50%;
-overflow: hidden;
-} */
 
- /* .nav__img img {
-width: 46px;
-} */
 
  .nav__name {
      display: block;
