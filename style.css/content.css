@@ -9,7 +9,9 @@ height: auto;
 height: 100vh;
 width: 100%;
 position: relative;
-background-color: #555;
+/* background-color: #555; */
+/* background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%); */
+background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
 }
 
 @media (min-width: 1200px) {
@@ -36,7 +38,7 @@ background-color: #555;
  .icon-box{
    flex: 1;
    box-sizing: border-box;
-   background-color: #acacac;
+   background-color: #313131;
    max-width: 25%;
    justify-content: center;
    align-items: center;
@@ -99,6 +101,9 @@ background-color: #555;
 
 .column1{
    background-color: #fc5e09;
+   margin: 0 auto;
+   padding: 0;
+   
 }
 
 .VM-content{
@@ -106,9 +111,6 @@ background-color: #555;
    height: 50vh;
    background-color: #242424;
 }
-
-
-
 
 /* footer */
 footer {
