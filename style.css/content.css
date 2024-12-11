@@ -11,129 +11,143 @@ width: 100%;
 position: relative;
 /* background-color: #555; */
 /* background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%); */
-background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+/* background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%); */
 }
 
-@media (min-width: 1200px) {
-   .hero-image .icon-boxes:before {
-     content: "";
-     position: absolute;
-     bottom: 0;
-     left: 0;
-     right: 0;
-     height: calc(25% + 20px);
-     background-color: #fff;
-   }
- }
- .row{
-   align-content: center;
-   text-align: center;
-   margin: 0 auto;
-   display: flex;
-   justify-content: center;
-   padding: 0;
+.cover-image{
+   position: absolute;
+   top: 0;
+   left: 0;
+   object-fit: cover;
    width: 100%;
- }
+   height: 100%;
+   z-index: 0;
+}
 
- .icon-box{
-   flex: 1;
-   box-sizing: border-box;
-   background-color: #313131;
-   justify-content: center;
-   align-items: center;
-   
- }
 
- .hero-image .icon-box {
-   padding: 80px 100px;
-   position: relative;
-   overflow: hidden;
-   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
-   transition: all 0.3s ease-in-out;
-   border-radius: 8px;
-   z-index: 1;
-   height: auto;
-   text-align: center;
-   justify-items: center;
-   align-items: center;
-   margin: 15px;
-   margin-top: -110px;
- }
- 
- 
+
+@media (min-width: 1200px) {
+.hero-image .icon-boxes:before {
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+height: calc(25% + 20px);
+background-color: #fff;
+}
+}
+.row{
+align-content: center;
+text-align: center;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+padding: 0;
+width: 100%;
+}
+
+.icon-box{
+flex: 1;
+box-sizing: border-box;
+background-color: #242424;
+justify-content: center;
+align-items: center;
+
+}
+
+.hero-image .icon-box {
+padding: 80px 100px;
+position: relative;
+overflow: hidden;
+box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
+transition: all 0.3s ease-in-out;
+border-radius: 8px;
+z-index: 1;
+height: auto;
+text-align: center;
+justify-items: center;
+align-items: center;
+margin: 15px;
+margin-top: -110px;
+}
+
+
 .hero-image .icon-box .title a {
-   color: var(--color-third);
-   transition: 0.3s;
-   font-weight: lighter;
-   text-align: center;
- }
- 
- .hero-image .icon-box .icon {
-   display: inline-block;
-   transition: all 0.3s ease-in-out;
-   font-size: 48px;
- }
- 
+color: var(--color-third);
+transition: 0.3s;
+font-weight: lighter;
+text-align: center;
+}
+
+.hero-image .icon-box .icon {
+display: inline-block;
+transition: all 0.3s ease-in-out;
+font-size: 48px;
+}
+
 .hero-image .icon-box:hover {
-  background-color: #555;
- }
- 
+background-color: #555;
+}
+
 .hero-image .icon-box:hover .title a,
 .hero-image .icon-box:hover .icon {
-   color: #555;
- }
+color: #555;
+}
 /* body */
 
 /* about us */
 .about{
-   max-width: 100%;
-   height: 60vh;
-   background-color: #ecf3fe;
+max-width: 100%;
+height: 60vh;
+background-color: #ecf3fe;
 }
 
 .column1, .col{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 60vh;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 60vh;
 }
 
 .column1{
-   background-color: #fc5e09;
-   margin: 0 auto;
-   padding: 0;
-   
+background-color: #fc5e09;
+margin: 0 auto;
+padding: 0;
+
 }
 
 .VM-content{
-   width: 100%;
-   height: 50vh;
-   background-color: #242424;
+width: 100%;
+height: 50vh;
+background-color: #242424;
 }
 
 /* text header */
 
 .text-header{
-   width: 100%;
-   height: auto;
-   padding: 15%;
-   justify-content: center;
-   align-items: center;
-   margin: 0 auto;
-   display: flex;
-   flex-direction: column;
-   text-align: center;
+width: 100%;
+height: auto;
+padding: 15%;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+text-align: center;
+position: relative;
+z-index: 1;
 }
 .text-header p{
-   text-align: center;
-   margin: 0 auto;
-   color: #ecf3fe;
-   font-size: 2.5rem;
-   text-shadow: 2px 2px 2px #494949; 
+text-align: center;
+margin: 0 auto;
+color: #ecf3fe;
+font-size: 2.5rem;
+text-shadow: 2px 2px 2px #494949;
 }
 
 .Inquire{
-   margin-top: 5%;
+margin-top: 5%;
 }
 
 
@@ -172,7 +186,7 @@ padding: 5%
 }
 
 .footer-logo{
-   width: 15rem;
+width: 15rem;
 }
 .touchmenot button{
 height: 40px;
@@ -181,7 +195,7 @@ font-size: 16px;
 background-color: #242424;
 }
 .touchmenot p{
-   font-weight: lighter;
+font-weight: lighter;
 }
 
 .input-group input{
@@ -200,43 +214,43 @@ height: auto;
 }
 
 .card-body{
-   margin: 0 auto;
-   padding: 0;
-   height: auto;
-   text-align: center;
+margin: 0 auto;
+padding: 0;
+height: auto;
+text-align: center;
 }
 
 .orange{
-   color: #fc5e09;
+color: #fc5e09;
 }
 
 .card-title{
-   font-size: 20px;
+font-size: 20px;
 }
 
 .text-muted {
-   color: rgb(90, 90, 90);
-   font-size: small;
-   margin-top: 10%;
+color: rgb(90, 90, 90);
+font-size: small;
+margin-top: 10%;
 }
 
 /* button up scroll */
 #myBtn {
-   display: none; /* Hidden by default */
-   position: fixed; /* Fixed/sticky position */
-   bottom: 20px; /* Place the button at the bottom of the page */
-   right: 30px; /* Place the button 30px from the right */
-   z-index: 99; /* Make sure it does not overlap */
-   border: none; /* Remove borders */
-   outline: none; /* Remove outline */
-   background-color: rgb(255, 94, 0); /* Set a background color */
-   color: white; /* Text color */
-   cursor: pointer; /* Add a mouse pointer on hover */
-   padding: 15px; /* Some padding */
-   border-radius: 10px; /* Rounded corners */
-   font-size: 18px; /* Increase font size */
- }
- 
- #myBtn:hover {
-   background-color: #555; /* Add a dark-grey background on hover */
- }
+display: none; /* Hidden by default */
+position: fixed; /* Fixed/sticky position */
+bottom: 20px; /* Place the button at the bottom of the page */
+right: 30px; /* Place the button 30px from the right */
+z-index: 99; /* Make sure it does not overlap */
+border: none; /* Remove borders */
+outline: none; /* Remove outline */
+background-color: rgb(255, 94, 0); /* Set a background color */
+color: white; /* Text color */
+cursor: pointer; /* Add a mouse pointer on hover */
+padding: 15px; /* Some padding */
+border-radius: 10px; /* Rounded corners */
+font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+background-color: #555; /* Add a dark-grey background on hover */
+}
