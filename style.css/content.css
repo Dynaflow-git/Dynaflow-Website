@@ -37,7 +37,7 @@ height: calc(25% + 20px);
 background-color: #fff;
 }
 }
-.row{
+.rower{
 align-content: center;
 text-align: center;
 margin: 0 auto;
@@ -103,25 +103,81 @@ height: 60vh;
 background-color: #ecf3fe;
 }
 
-.column1, .col{
-display: flex;
-justify-content: center;
-align-items: center;
+.col{
 height: 60vh;
-}
-
-.column1{
-background-color: #fc5e09;
-margin: 0 auto;
-padding: 0;
+width: auto;
 
 }
-
-.VM-content{
+.column2{
 width: 100%;
-height: 50vh;
+margin: 0;
 background-color: #242424;
 }
+
+.column2 span{
+   color: #fff;
+   
+}
+
+/* suppliers logo */
+
+
+@keyframes slide {
+   from {
+       transform: translateX(0);
+   }
+
+   to {
+       transform: translateX(-100%);
+   }
+}
+
+.logos {
+   overflow: hidden;
+   padding: 30px 0;
+   background: #232323;
+   height: auto;
+   white-space: nowrap;
+   position: relative;
+}
+
+
+.logos:before,
+.logos:after {
+   position: absolute;
+   top: 0;
+   width: 250px;
+   height: 100%;
+   content: "";
+   z-index: 2;
+}
+
+.logos:before {
+   left: 0;
+   background: linear-gradient(to left, rgba(255, 255, 255, 0), #000000);
+}
+
+.logos:after {
+   right: 0;
+   background: linear-gradient(to right, rgba(255, 255, 255, 0), #000000);
+}
+
+.logos:hover .logos-slide {
+   animation-play-state: paused;
+}
+
+.logos-slide {
+   display: inline-block;
+   animation: 35s slide infinite linear;
+   display: flex;
+}
+
+.logos-slide img {
+   height: 150px;
+   width: auto;
+   margin: 0 40px;
+}
+
 
 /* text header */
 
