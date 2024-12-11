@@ -139,6 +139,11 @@ background-color: #242424;
    height: auto;
    white-space: nowrap;
    position: relative;
+   text-align: center;
+}
+#contact p{
+   color: #ecf3fe;
+   font-size: 25px;
 }
 
 
