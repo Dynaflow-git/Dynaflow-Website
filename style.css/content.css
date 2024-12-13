@@ -97,7 +97,11 @@ color: #555;
 /* body */
 
 /* about us */
-
+.aboutus{
+   max-width: 100%;
+   height: auto;
+   
+}
 /* suppliers logo */
 
 
