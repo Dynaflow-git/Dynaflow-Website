@@ -15,13 +15,13 @@ position: relative;
 }
 
 .cover-image{
-   position: absolute;
-   top: 0;
-   left: 0;
-   object-fit: cover;
-   width: 100%;
-   height: 100%;
-   z-index: 0;
+position: absolute;
+top: 0;
+left: 0;
+object-fit: cover;
+width: 100%;
+height: 100%;
+z-index: 0;
 }
 
 
@@ -57,7 +57,7 @@ align-items: center;
 }
 
 .hero-image .icon-box {
-padding: 80px 100px;
+padding: 80px 50px;
 position: relative;
 overflow: hidden;
 box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
@@ -98,72 +98,72 @@ color: #555;
 
 /* about us */
 .aboutus{
-   max-width: 100%;
-   height: auto;
-   
+max-width: 100%;
+height: auto;
+padding: 5rem;
 }
 /* suppliers logo */
 
 
 @keyframes slide {
-   from {
-       transform: translateX(0);
-   }
+from {
+transform: translateX(0);
+}
 
-   to {
-       transform: translateX(-100%);
-   }
+to {
+transform: translateX(-100%);
+}
 }
 
 .logos {
-   overflow: hidden;
-   padding: 30px 0;
-   background: #232323;
-   height: auto;
-   white-space: nowrap;
-   position: relative;
-   text-align: center;
+overflow: hidden;
+padding: 30px 0;
+background: #232323;
+height: auto;
+white-space: nowrap;
+position: relative;
+text-align: center;
 }
 #contact p{
-   color: #ecf3fe;
-   font-size: 20px;
+color: #ecf3fe;
+font-size: 20px;
 }
 
 
 .logos:before,
 .logos:after {
-   position: absolute;
-   top: 0;
-   width: 250px;
-   height: 100%;
-   content: "";
-   z-index: 2;
+position: absolute;
+top: 0;
+width: 250px;
+height: 100%;
+content: "";
+z-index: 2;
 }
 
 .logos:before {
-   left: 0;
-   background: linear-gradient(to left, rgba(255, 255, 255, 0), #000000);
+left: 0;
+background: linear-gradient(to left, rgba(255, 255, 255, 0), #000000);
 }
 
 .logos:after {
-   right: 0;
-   background: linear-gradient(to right, rgba(255, 255, 255, 0), #000000);
+right: 0;
+background: linear-gradient(to right, rgba(255, 255, 255, 0), #000000);
 }
 
 .logos:hover .logos-slide {
-   animation-play-state: paused;
+animation-play-state: paused;
 }
 
 .logos-slide {
-   display: inline-block;
-   animation: 35s slide infinite linear;
-   display: flex;
+display: inline-block;
+animation: 35s slide infinite linear;
+display: flex;
 }
 
 .logos-slide img {
-   height: 150px;
-   width: auto;
-   margin: 0 40px;
+height: 150px;
+width: auto;
+margin: 0 40px;
 }
 
 
@@ -228,28 +228,29 @@ width: 100%;
 padding: 5%
 
 }
-
-.footer-logo{
-width: 15rem;
-}
 .touchmenot button{
 height: 40px;
 width: 32%;
 font-size: 16px;
 background-color: #242424;
 }
-.touchmenot p{
-font-weight: lighter;
+
+
+.form-control{
+   padding: 0;
+   margin: 0 auto;
+   height: 100px;
 }
 
-.input-group input{
-width: 300px;
-margin-bottom: 20px;
-height:30px;
-border-radius: 10px;
-border: none;
-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+#input-form{
+   width: 50%;
 }
+
+.footer-logo{
+width: 15rem;
+}
+
+
 
 .card{
 color: #ffff;
