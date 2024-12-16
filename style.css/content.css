@@ -38,46 +38,51 @@ bottom: 0;
 left: 0;
 right: 0;
 height: calc(50% + 20px);
-background-color: #fff;
 }
 }
-.rower{
-align-content: center;
-text-align: center;
-margin: 0 auto;
-display: flex;
-justify-content: center;
-padding: 0;
-width: 100%;
-}
+s
 
 .icon-box{
-flex: 1;
-box-sizing: border-box;
-background-color: #242424;
-justify-content: center;
-align-items: center;
-
+    flex: 1 1 200px; 
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    z-index: 1;
+   width: auto;
+    height: auto;
+    background-color: #242424;
+    margin: 10px;
+}
+.icon-boxes .row{
+    margin: 0 auto;
+    width: 80%;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
 }
 
+
 .hero-image .icon-box {
-padding: 80px 30px;
+padding: 50px 20px;
 position: relative;
 overflow: hidden;
-box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
 transition: all 0.3s ease-in-out;
+box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
 border-radius: 8px;
 z-index: 1;
+width: 100%;
 height: auto;
-text-align: center;
-justify-items: center;
-align-items: center;
-margin: 15px;
+background-color: #242424;
 margin-top: -110px;
+
 }
 
 .hero-image .icon-box .title a {
-color: var(--color-third);
 transition: 0.3s;
 font-weight: lighter;
 text-align: center;
@@ -265,7 +270,7 @@ padding: 0;
 
 .container{
 max-width: 100%;
-height: 60vh;
+height: 70vh;
 justify-content: center;
 align-items: center;
 margin: 0 auto ;
