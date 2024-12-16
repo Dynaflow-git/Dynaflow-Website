@@ -97,6 +97,10 @@ background-color: #555;
 .hero-image .icon-box:hover .icon {
 color: #555;
 }
+
+.hero-image button{
+    border-radius: 25px;
+}
 /* body */
 
 /* about us */
@@ -122,6 +126,11 @@ text-align: left;
 }
 /* suppliers logo */
 
+#box-text input{
+    border-radius: 25px ;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 
 @keyframes slide {
 from {
@@ -222,13 +231,13 @@ background-color: #ecf3fe;
 height: auto;
 width: 100%;
 padding: 5%
-
 }
 .touchmenot button{
 height: 40px;
-width: 32%;
+width: 25%;
 font-size: 16px;
 background-color: #242424;
+border-radius: 25px;
 }
 
 
