@@ -321,8 +321,8 @@ background-color: #555; /* Add a dark-grey background on hover */
 /* Products */
 
 .products{
-    height: 100vh;
-    
+    max-height: 100vh;
+    height: 90vh;
 }
 
 #card-products{
