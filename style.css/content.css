@@ -43,24 +43,22 @@ height: calc(50% + 20px);
 s
 
 .icon-box{
-flex: 1 1 200px;
-box-sizing: border-box;
+display: flex;
 justify-content: center;
 align-items: center;
-position: relative;
 overflow: hidden;
 transition: all 0.3s ease-in-out;
 box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
 border-radius: 8px;
 z-index: 1;
-width: auto;
+width: 100%;
 height: auto;
 background-color: #242424;
 margin: 10px;
 }
 .icon-boxes .row{
 margin: 0 auto;
-width: 80%;
+width: 100%;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
@@ -326,7 +324,7 @@ height: auto;
 }
 
 #pro-cards{
-    height: 100vh;
+height: 100vh;
 }
 
 #card-products{
@@ -368,4 +366,3 @@ border: none;
 padding: 10px 20px;
 margin-top: 10px;
 }
-
