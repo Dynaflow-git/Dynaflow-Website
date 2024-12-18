@@ -321,8 +321,12 @@ background-color: #555; /* Add a dark-grey background on hover */
 /* Products */
 
 .products{
-    max-height: 100vh;
-    height: 90vh;
+max-height: 100vh;
+height: auto;
+}
+
+#pro-cards{
+    height: 100vh;
 }
 
 #card-products{
@@ -336,19 +340,19 @@ padding: 5%;
 }
 
 .card-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
 }
 
 .card-img-top{
-    width: 100%;
-    height: 17rem;
-    object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    border-radius: 5px;
+width: 100%;
+height: 17rem;
+object-fit: cover;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+border-radius: 5px;
 }
 
 #card-products a{
@@ -364,3 +368,4 @@ border: none;
 padding: 10px 20px;
 margin-top: 10px;
 }
+

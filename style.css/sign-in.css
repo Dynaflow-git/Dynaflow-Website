@@ -1,0 +1,41 @@
+#con-card{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0 auto;
+padding: 0;
+background-color: #252525;
+}
+
+.card{
+height: 70vh;
+width: 29rem;
+
+}
+
+#card2{
+padding: 10%;
+justify-content: center;
+
+}
+/* card1 */
+
+
+
+/* card2 */
+.form-floating{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 25px;
+}
+
+#floatingInput, #floatingPassword{
+  border-radius: 15px;
+   
+}
+
+#card2 button{
+    border-radius: 25px;
+    align-items: center;
+    width: 100%;
+}
