@@ -324,12 +324,17 @@ background-color: #555; /* Add a dark-grey background on hover */
 /* Products */
 
 .products{
-max-height: 100vh;
+max-height: 200vh;
 height: auto;
 }
 
 #pro-cards{
-height: 100vh;
+height: 200vh;
+}
+
+#text-title{
+    margin-top: 10rem;
+    text-align: center;
 }
 
 #card-products{
