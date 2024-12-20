@@ -41,8 +41,8 @@ height: auto ;
 }
 
 .icon-boxes{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-top: -30px;
 }
 }
@@ -61,7 +61,11 @@ width: 100%;
 height: auto;
 background-color: #242424;
 margin: 10px;
+color: #ecf3fe;
+font-size: 25px;
+text-align: center;
 }
+
 .icon-boxes .row{
 margin: 0 auto;
 width: 100%;
@@ -72,7 +76,7 @@ flex-wrap: wrap;
 
 
 .hero-image .icon-box {
-padding: 50px 20px;
+padding: 40px 50px;
 position: relative;
 overflow: hidden;
 transition: all 0.3s ease-in-out;
