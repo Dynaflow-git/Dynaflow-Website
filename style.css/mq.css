@@ -1,0 +1,82 @@
+/* starting the size of media queries here.. */
+/* bigscreen */
+
+@media (min-width:1300px) and (max-width: 1440px){
+
+    body{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .header{
+        height: 8rem;
+    }
+    .hero-image{
+        max-height: 100vh;
+        height: 53vh;
+    }
+
+    .nav__list li{
+        font-size: 1em;
+    }
+
+    .text-header p{
+        font-size: 2.5rem ;
+    }
+    
+    .btn{
+        width: 14rem ;
+        height: 4rem;
+    }
+
+    /* products */
+
+
+    .products{
+        margin: 0 auto;
+        padding: 0;
+    
+    }
+
+    #pro-cards{
+        max-height: 100vh;
+        height: 90vh;
+        padding: auto;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    #pro-cards p{
+        margin-top: 10px;
+        
+    }
+    #row-card{
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .p-title{
+        font-size: 2rem;
+    }
+
+
+    
+
+    /* footer */
+
+    footer{
+        height: 30vh;
+    }
+
+
+}
+
+/* tablet */
+@media (max-width: 1024px){
+
+}
+
+/* #phones */
+@media (max-width: 600px){
+
+}
