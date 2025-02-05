@@ -1,0 +1,188 @@
+/* starting the size of media queries here.. */
+/* bigscreen */
+
+@media (min-width:1300px) and (max-width: 1440px){
+
+body{
+margin: 0 auto;
+padding: 0;
+}
+
+.header{
+height: 8rem;
+}
+.hero-image{
+max-height: 100vh;
+height: 53vh;
+}
+
+.nav__list li{
+font-size: 1em;
+}
+
+.text-header p{
+font-size: 2.5rem ;
+}
+
+.btn{
+width: 14rem ;
+height: 4rem;
+}
+
+/* products */
+
+
+.products{
+margin: 0 auto;
+padding: 0;
+
+}
+
+#pro-cards{
+max-height: 100vh;
+height: 90vh;
+padding: auto;
+margin: 0 auto;
+max-width: 100%;
+}
+
+#pro-cards p{
+margin-top: 10px;
+
+}
+#row-card{
+margin: 0 auto;
+padding: 0;
+}
+
+.p-title{
+font-size: 2rem;
+}
+
+
+
+
+/* footer */
+
+footer{
+height: 30vh;
+}
+
+
+}
+
+/* tablet */
+@media (max-width: 1024px){
+
+.hero-image{
+height: 65vh;
+}
+
+.row{
+height: 60%;
+}
+
+.icon-boxes{
+height: 50vh;
+width: auto;
+padding: 0 ;
+margin: 0 auto;
+
+}
+.icon-box{
+margin: 0 auto;
+}
+footer{
+height: 30vh;
+}
+}
+
+
+/* #phones */
+@media (max-width: 600px){
+
+    .hero-image{
+        height: 150vh;
+        max-height: 200vh;
+    }
+    .cover-image{
+        height: 90vh;
+    }
+    .header__logo{
+      text-decoration: none;
+    }
+
+    .text-header{
+        padding: 0;
+    }
+
+    .text-header p{
+        margin-top: 200px;
+        font-size: 22px;
+    }
+    .text-header a{
+        margin-bottom: 150px;
+    }
+    #boxes-row{
+        height: 180%;
+        padding: 5%;
+    }
+
+    .icon-boxes{
+        height: 50vh;
+    }
+
+    .icon-box{
+       margin: 0 auto;
+       
+    }
+
+    /* about us */
+
+    .section .aboutus{
+        margin: 0 auto;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .aboutus .col{
+        flex: 1 1 100%;
+    }
+
+    .touchmenot{
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+       text-align: center;
+       flex-direction: column;
+       display: flex;
+    }
+
+    #input-form{
+        width: 150%;
+
+    }
+
+    .touchmenot button{
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    footer{
+        height: 40vh;
+    }
+
+    .footer-logo{
+        width: 100%;
+        height: 10vh;
+       margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .footer-logo img{
+        height: 130%;
+        width: 50%;
+    }
+}
