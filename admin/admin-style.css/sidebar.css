@@ -82,3 +82,19 @@ header .iamge-text .header-text{
 .header-text .profession{
    margin-top:-2px;
 }
+
+.sidebar header .toggle{
+   position: absolute;
+   top: 50px;
+   right: -25px;
+   transform: translate(-50%);
+   height: 25px;
+   width: 25px;
+   background-color: var(--primary-colors);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   color: var(--sidebar-colors);
+   font-size: 22px;
+}
