@@ -38,6 +38,9 @@ body{
    font-size: 16px;
    font-weight: 500;
    color: var(--text-colors);
+   transition: var(--tran-04);
+   white-space: nowrap;
+   opacity: 1;
  }
 
  .sidebar .image{
@@ -61,7 +64,7 @@ body{
    padding: 10px 14px;
    background: var(--sidebar-colors);
    transition: var(--tran-05);
-
+   z-index: 100;
 }
 
 .sidebar.close{
@@ -160,4 +163,23 @@ color: var(--sidebar-colors);
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+}
+
+.home{
+   position: relative;
+   left: 250px;
+   height: 100vh;
+   width: calc(100% - 250px);
+   background: var(--body-colors);
+   transition: var(--tran-05);
+}
+.home .text{
+   font-size: 30px;
+   font-weight: 500;
+   color: var(--text-colors);
+   padding: 8px 40px;
+}
+.sidebar.close ~ .home{
+   left: 88px;
+   width: calc(100% - 88px);
 }
