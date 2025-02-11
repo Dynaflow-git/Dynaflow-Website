@@ -20,7 +20,7 @@
       <header>
         <div class="image-text">
           <span class="image">
-            <img src="/image/dfslogo.png" alt="logo" />
+            <img src="../image/./dfslogo.png" alt="logo" />
           </span>
 
           <div class="text header-text">

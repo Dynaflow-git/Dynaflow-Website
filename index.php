@@ -14,8 +14,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-
-
 </head>
 
 <body>
@@ -127,6 +125,9 @@
             <img src="./image/suppliers/Waco-5.png">
             <img src="./image/suppliers/warden logo.png">
             <img src="./image/suppliers/warden-machinery_380x253.png">
+            <img src="./image/./suppliers/./TTCI.png">
+            <img src="./image/./suppliers/./nupon supplier.png">
+            <img src="./image/./suppliers/./GIGATOOLS.png">
         </div>
     </div>
 
