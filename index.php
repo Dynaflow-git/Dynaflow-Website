@@ -7,13 +7,18 @@
     <title>Dynaflow Industrial Supply</title>
     <link rel="icon" type="image/png" href="./image/Frame 1.png">
 
-    <link href="style.css/content.css" rel="stylesheet">
-    <link href="style.css/style.css" rel="stylesheet">
-    <link href="style.css/mq.css" rel="stylesheet">
+    <link href="./css//content.css" rel="stylesheet">
+    <link href="./css//style.css" rel="stylesheet">
+    <link href="./css//mq.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <style>
+        /* .hero-image{
+            height: 80vh;
+        } */
+    </style>
 </head>
 
 <body>
@@ -32,7 +37,7 @@
                 <div class="nav__perfil">
                     <div>
                         <a href="#home" class="nav__name">
-                            <img src="./image/DF LOGO.png" style="height: 110px; width: 225px;">
+                            <img src="./image//DF LOGO.png" style="height: 110px; width: 255px;">
                         </a>
                     </div>
                 </div>
@@ -53,7 +58,6 @@
             </div>
         </nav>
     </header>
-
     <div class="hero-image" id="home">
         <img src="./image/Frame2.jpg" alt="image" class="cover-image">
         <div class="text-header">
@@ -63,12 +67,12 @@
             <a href="#aboutus"><button type="button" class="btn btn-dark Inquire mt-4">Inquire More</button></a>
         </div>
         <!-- icon boxes -->
-        <div class="icon-boxes">
+        <!-- <div class="icon-boxes">
             <div class="row gy-3" id="boxes-row">
                 <div class="col-xl-3 col-md-6 col-sm-12">
                     <div class="icon-box">
                         <p>100+ <br>
-                            Suppliers</p>
+                            Supplies</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 col-sm-12">
@@ -88,21 +92,26 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
 
+
+
     <!-- suppliers logo -->
-     <div id="services"></div>
+    <div id="services"></div>
 
     <div class="logos" id="contact">
-        <p class="text-center">LIST OF SUPPLIERS</p>
+        <p class="text-center">BUSINESS PARTNERS</p>
         <div class="logos-slide">
             <img src="./image/suppliers/1631370012073.png">
             <img
                 src="./image/suppliers/0-02-06-2f91814a7affbe3f11ba1c88e2d0c1979624c931e9d213cab84e6c55375ec355_1c6dc1554503d2.png">
             <img src="./image/suppliers/307756322_494352812701958_3514013765130516898_n.png">
             <img src="./image/suppliers/341133897_1398664240899552_8603220570200623439_n.png">
+            <img src="./image/./suppliers/./TTCI.png">
+            <img src="./image/./suppliers/./nupon supplier.png">
+            <img src="./image/./suppliers/./GIGATOOLS.png">
             <img src="./image/suppliers/ALGOL1.png">
             <img src="./image/suppliers/american_air_filter_logo.png">
             <img src="./image/suppliers/Armstrong-Logo.png">
@@ -125,9 +134,6 @@
             <img src="./image/suppliers/Waco-5.png">
             <img src="./image/suppliers/warden logo.png">
             <img src="./image/suppliers/warden-machinery_380x253.png">
-            <img src="./image/./suppliers/./TTCI.png">
-            <img src="./image/./suppliers/./nupon supplier.png">
-            <img src="./image/./suppliers/./GIGATOOLS.png">
         </div>
     </div>
 
@@ -151,15 +157,15 @@
                     industry expertise, reliability, and dedication to providing solutions
                     that meet the ever-changing needs of its global customer base.
                     <br><br>
-                    
+
                     <span style="font-weight: bold;">OBJECTIVES</span>
                     <br><br>
                     Dynaflow Industrial Supply aspires to be globally
                     competitive and hopes to provide new product and
                     service offerings to its customer on a global scale.
-                    These products will of course still be branded with 
+                    These products will of course still be branded with
                     the unique Dynaflow Industrial Supply trademarks of
-                    high level of expertise, commitment, dedication 
+                    high level of expertise, commitment, dedication
                     and drive.
                 </p>
             </div>
@@ -170,30 +176,30 @@
                     The client groups are primarily in the industry of Food and Beverages,
                     Pharmaceuticals, Industrials and other Manufacturing company, Hotels
                     and Restaurant, Petroleum and Mining.
-                    <br><br>   
-                    <span style="font-weight: bold;"><i class="fa-solid fa-chart-gantt" style="color: white; margin-right: 10px;" ></i>SALES TERMS</span><br>
+                    <br><br>
+                    <span style="font-weight: bold;"><i class="fa-solid fa-chart-gantt" style="color: white; margin-right: 10px;"></i>SALES TERMS</span><br>
                     Generally, 15 day credit is extended to first time clients and those
                     with short period of transactions. Those with a long period of terms
                     of good credit standing are usually granted a 30-45 days credit.
                     Additionally, advanced T/T and L/C are used when necessary.
-                        <br><br>
+                    <br><br>
                     <span style="font-weight: bold;"> BUSINESS SCOPE</span>
                     <br><br>
                     Supply of wide range of products and services
-                    to its domestic and international customers. 
+                    to its domestic and international customers.
                     <br><br>
                     From Angelus Seamer Machines to other high end packaging
                     machines to different kinds of Industrial products and
                     consumables. Dynaflow will not limit itself in expanding its
                     product line and expertise but to be fully commited in
-                    providing excellent services to its customers and partners. 
+                    providing excellent services to its customers and partners.
                 </p>
             </div>
         </div>
     </div>
 
 
-<div id="aboutus"></div>
+    <div id="aboutus"></div>
     <div class="touchmenot">
         <p class="fw-fold">
             GET IN TOUCH WITH US!
@@ -266,46 +272,46 @@
 
     <!-- up -->
     <script>
-    let mybutton = document.getElementById("myBtn");
+        let mybutton = document.getElementById("myBtn");
 
-    window.onscroll = function() {
-        scrollFunction()
-    };
+        window.onscroll = function() {
+            scrollFunction()
+        };
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
         }
-    }
 
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
     </script>
 
     <!-- active link -->
     <script>
-    // Get all navigation links
-    const navLinks = document.querySelectorAll('.nav__link');
+        // Get all navigation links
+        const navLinks = document.querySelectorAll('.nav__link');
 
-    // Function to remove active class from all links
-    function removeActiveClass() {
+        // Function to remove active class from all links
+        function removeActiveClass() {
+            navLinks.forEach(link => {
+                link.parentElement.classList.remove('active');
+            });
+        }
+
+        // Add click event listener to each link
         navLinks.forEach(link => {
-            link.parentElement.classList.remove('active');
+            link.addEventListener('click', function() {
+                removeActiveClass(); // Remove active class from all links
+                link.parentElement.classList.add(
+                    'active'); // Add active class to the clicked link's parent <li>
+            });
         });
-    }
-
-    // Add click event listener to each link
-    navLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            removeActiveClass(); // Remove active class from all links
-            link.parentElement.classList.add(
-                'active'); // Add active class to the clicked link's parent <li>
-        });
-    });
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

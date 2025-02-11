@@ -13,7 +13,11 @@ height: 8rem;
 }
 .hero-image{
 max-height: 100vh;
-height: 53vh;
+height: 70vh;
+}
+
+.cover-image{
+    height: 70vh;
 }
 
 .nav__list li{
@@ -21,12 +25,13 @@ font-size: 1em;
 }
 
 .text-header p{
-font-size: 2.5rem ;
+font-size: 2.1rem ;
+margin-top: 30px;
 }
 
 .btn{
-width: 14rem ;
-height: 4rem;
+width: 12rem ;
+height: 3.5rem;
 }
 
 /* products */
@@ -59,13 +64,9 @@ padding: 0;
 font-size: 2rem;
 }
 
-
-
-
-/* footer */
-
 footer{
-height: 30vh;
+max-height: 50vh;
+height: 50vh;
 }
 
 

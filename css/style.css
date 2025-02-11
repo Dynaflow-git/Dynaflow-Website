@@ -156,7 +156,7 @@
  }
 
  .nav__name img {
- height: 40px;
+ height: 50px;
  width: 90px;
  }
 
@@ -187,7 +187,6 @@
  .nav__list a {
  color: var(--dark-color);
  font-family: var(--body-font);
- font-weight: bold;
  text-decoration: none;
  }
 
