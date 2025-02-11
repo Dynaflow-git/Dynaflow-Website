@@ -147,6 +147,7 @@
  border-radius: 50%;
  cursor: pointer;
  }
+  
 
 
 
@@ -155,9 +156,9 @@
  color: var(--dark-color);
  }
 
- .nav__name img {
- height: 50px;
- width: 90px;
+ .nav__perfil img {
+ max-height: 100px;
+ max-width: 230px;
  }
 
  .nav__profesion {

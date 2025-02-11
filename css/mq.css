@@ -9,11 +9,16 @@ padding: 0;
 }
 
 .header{
-height: 8rem;
+max-height: 7rem;
+height: 6.5rem;
 }
 .hero-image{
 max-height: 100vh;
 height: 70vh;
+}
+.nav__list a{
+font-size: 14px;
+
 }
 
 .cover-image{
@@ -25,13 +30,16 @@ font-size: 1em;
 }
 
 .text-header p{
-font-size: 2.1rem ;
+font-size: 2rem ;
 margin-top: 30px;
 }
 
 .btn{
-width: 12rem ;
-height: 3.5rem;
+max-width: 12rem ;
+max-height: 3.5rem;
+
+width: 11rem;
+height: 3rem;
 }
 
 /* products */
@@ -76,9 +84,12 @@ height: 50vh;
 @media (max-width: 1024px){
 
 .hero-image{
+max-height: 70vh;
 height: 65vh;
 }
-
+.text-header p{
+    margin-top: 25px;
+}
 .row{
 height: 60%;
 }
@@ -94,32 +105,41 @@ margin: 0 auto;
 margin: 0 auto;
 }
 footer{
-height: 30vh;
+max-height: 50vh;
+height: 50vh;
 }
 }
 
 
-/* #phones */
-@media (max-width: 600px){
+
+/* @media (max-width: 600px){
+
+    .header__toggle{
+        font-size: 1.5rem;
+        color: var(--dark-color-alt);
+        cursor: pointer;
+    }
 
     .hero-image{
-        height: 150vh;
-        max-height: 200vh;
+        height: 75vh;
+        max-height: 100vh;
     }
     .cover-image{
-        height: 90vh;
+        height: 76vh;
     }
     .header__logo{
       text-decoration: none;
     }
 
     .text-header{
-        padding: 0;
+       height: 75vh;
+       padding: 0;
+       margin: 0 auto;
     }
 
     .text-header p{
+        font-size: 28px;
         margin-top: 200px;
-        font-size: 22px;
     }
     .text-header a{
         margin-bottom: 150px;
@@ -137,8 +157,6 @@ height: 30vh;
        margin: 0 auto;
        
     }
-
-    /* about us */
 
     .section .aboutus{
         margin: 0 auto;
@@ -172,12 +190,13 @@ height: 30vh;
     }
 
     footer{
-        height: 40vh;
+        max-height: 60vh;
+        height: 50vh;
     }
 
     .footer-logo{
         width: 100%;
-        height: 10vh;
+        height: 13vh;
        margin-bottom: 20px;
         padding: 0;
     }
@@ -186,4 +205,4 @@ height: 30vh;
         height: 130%;
         width: 50%;
     }
-}
+} */

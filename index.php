@@ -10,6 +10,9 @@
     <link href="./css//content.css" rel="stylesheet">
     <link href="./css//style.css" rel="stylesheet">
     <link href="./css//mq.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -37,7 +40,7 @@
                 <div class="nav__perfil">
                     <div>
                         <a href="#home" class="nav__name">
-                            <img src="./image//DF LOGO.png" style="height: 110px; width: 255px;">
+                            <img src="./image//DF LOGO.png">
                         </a>
                     </div>
                 </div>
@@ -311,6 +314,15 @@
                 link.parentElement.classList.add(
                     'active'); // Add active class to the clicked link's parent <li>
             });
+        });
+    </script>
+
+    <script>
+        const closeButton = document.getElementById('nav-close');
+        const navMenu = document.querySelector('.nav'); // Assuming the nav menu has a 'nav' class
+
+        closeButton.addEventListener('click', function() {
+            navMenu.classList.add('hidden'); // Add a hidden class to hide the menu
         });
     </script>
 
