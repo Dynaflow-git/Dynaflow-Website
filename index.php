@@ -45,7 +45,7 @@
                             <li><a href="#home" class="nav__link">Products</a></li>
                             <li><a href="#services" class="nav__link">Services</a></li>
                             <li><a href="#aboutus" class="nav__link">About us</a></li>
-                            <li><a href="./sign-in.html" class="nav__link">
+                            <li><a href="sign-in.php" class="nav__link">
                                     <img src="./image/log-in.png" alt="Sign_in Icon"
                                         style="height: 18px; width: 20px;" />
                                 </a></li>

@@ -102,13 +102,18 @@ body{
 .sidebar .image-text img{
    width: 60px;
    border-radius: 6px;
+}
 
-
+.header-text .name{
+   font-size: 25px;
+   font-weight: bold;
+   margin-bottom: -5px;
 }
 
 .sidebar header .image-text{
    display: flex;
    align-items: center;
+   font-style: italic;
 }
 
 header .image-text .header-text{

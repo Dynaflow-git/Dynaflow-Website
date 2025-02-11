@@ -31,7 +31,7 @@
 
                 <div class="nav__perfil">
                     <div>
-                        <a href="index.html" class="nav__name">
+                        <a href="index.php" class="nav__name">
                             <img src="./image/icon-header.png" style="height: 110px; width: 225px;">
                         </a>
                     </div>
@@ -39,11 +39,11 @@
                 <div class="nav__menu">
                     <div class="nav__listed">
                         <ul class="nav__list">
-                            <li><a href="index.html" class="nav__link">Home</a></li>
-                            <li><a href="products.html" class="nav__link">Products</a></li>
-                            <li><a href="index.html#services" class="nav__link">Services</a></li>
-                            <li><a href="index.html#aboutus" class="nav__link">About us</a></li>
-                            <li><a href="./sign-in.html" class="nav__link">
+                            <li><a href="index.php" class="nav__link">Home</a></li>
+                            <li><a href="products.php" class="nav__link">Products</a></li>
+                            <li><a href="index.php#services" class="nav__link">Services</a></li>
+                            <li><a href="index.php#aboutus" class="nav__link">About us</a></li>
+                            <li><a href="sign-in.php" class="nav__link">
                                     <img src="./image/log-in.png" alt="Sign_in Icon"
                                         style="height: 18px; width: 20px;" />
                                 </a></li>
