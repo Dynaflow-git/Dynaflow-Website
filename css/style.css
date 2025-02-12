@@ -380,7 +380,7 @@ img {
     height: calc(var(--header-height) + 1rem);
   }
 
-  .header__logo,
+  
   .header__toggle {
     display: none;
   }

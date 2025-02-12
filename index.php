@@ -27,7 +27,10 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     <!-- header -->
     <header class="header">
-        <a href="#home" class="header__logo">Dynaflow Industrial Supply</a>
+        <a href="#home" class="header__logo">
+            <img src="./image/DF LOGO.png" alt="Dynaflow Logo">
+        </a>
+
 
         <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
 

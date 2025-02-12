@@ -162,20 +162,21 @@
     -ms-flex-align: center;
     align-items: center;
   }
+
+  .header__logo img {
+    display: block;
+    width: 100px;
+    height: 50px;
+    visibility: visible;
+    opacity: 1;
+  }
+
   .nav__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .nav__img {
-    width: 32px;
-    height: 32px;
-    margin-right: 0.5rem;
-    margin-bottom: 0;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
+
   .nav__list li.active a {
     color: #fc5e09;
     font-weight: bold;
@@ -228,12 +229,9 @@
     height: 75vh;
     max-height: 100vh;
   }
+
   .cover-image {
     height: 76vh;
-  }
-  .header__logo {
-    text-decoration: none;
-    display: block;
   }
 
   .text-header {
@@ -248,18 +246,6 @@
   }
   .text-header a {
     margin-bottom: 150px;
-  }
-  #boxes-row {
-    height: 180%;
-    padding: 5%;
-  }
-
-  .icon-boxes {
-    height: 50vh;
-  }
-
-  .icon-box {
-    margin: 0 auto;
   }
 
   .section .aboutus {
