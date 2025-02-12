@@ -33,7 +33,7 @@
 
         <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
 
-        <nav class="nav" id="nav-menu">
+        <nav class="nav hidden" id="nav-menu">
             <div class="nav__content bd-grid">
                 <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
 
@@ -44,7 +44,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="nav__menu">
+                <div class="nav__menu" id="sidebar">
                     <div class="nav__listed">
                         <ul class="nav__list">
                             <li><a href="#home" class="nav__link">Home</a></li>
@@ -61,6 +61,7 @@
             </div>
         </nav>
     </header>
+
 
     <div class="hero-image" id="home">
         <img src="./image/Frame2.jpg" alt="image" class="cover-image">
@@ -273,6 +274,24 @@
         </div>
     </footer>
 
+    <!-- toogle -->
+    <script>
+        const closeButton = document.getElementById("nav-close");
+        const navMenu = document.getElementById("nav-menu");
+        const navToggle = document.getElementById("nav-toggle");
+
+        navToggle.addEventListener("click", function() {
+            navMenu.classList.add("active");
+            document.body.classList.add("sidebar-open");
+        });
+
+
+        closeButton.addEventListener("click", function() {
+            navMenu.classList.remove("active");
+            document.body.classList.remove("sidebar-open");
+        });
+    </script>
+
 
     <!-- up -->
     <script>
@@ -318,21 +337,6 @@
         });
     </script>
 
-    <script>
-        const closeButton = document.getElementById('nav-close');
-        const navMenu = document.querySelector('.nav');
-        const navToggle = document.getElementById('nav-toggle');
-
-        // Close the nav menu when the close button is clicked
-        closeButton.addEventListener('click', function() {
-            navMenu.classList.remove('active'); // Hide the nav menu
-        });
-
-        // Open the nav menu when the hamburger (menu) icon is clicked
-        navToggle.addEventListener('click', function() {
-            navMenu.classList.add('active'); // Show the nav menu
-        });
-    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 

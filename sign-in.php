@@ -7,19 +7,21 @@
     <title>Dynaflow International Inc</title>
 
     <!-- css stylesheet -->
-    <link href="style.css/content.css" rel="stylesheet">
-    <link href="style.css/style.css" rel="stylesheet">
+    <link href="./css/content.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="./style.css/sign-in.css" rel="stylesheet">
+    <link href="./css/sign-in.css" rel="stylesheet">
 </head>
 
 <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
     <header class="header">
-        <a href="#home" class="header__logo">Dynaflow Internation Inc</a>
+        <a href="#home" class="header__logo">
+            <img src="./image/DF LOGO.png" alt="Dynaflow Logo">
+        </a>
 
         <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
 
@@ -30,7 +32,7 @@
                 <div class="nav__perfil">
                     <div>
                         <a href="index.php" class="nav__name">
-                            <img src="./image/icon-header.png" style="height: 110px; width: 225px;">
+                            <img src="./image//DF LOGO.png">
                         </a>
                     </div>
                 </div>
@@ -127,24 +129,24 @@
 
     <!-- up -->
     <script>
-    let mybutton = document.getElementById("myBtn");
+        let mybutton = document.getElementById("myBtn");
 
-    window.onscroll = function() {
-        scrollFunction()
-    };
+        window.onscroll = function() {
+            scrollFunction()
+        };
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
         }
-    }
 
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
     </script>
 </body>
 

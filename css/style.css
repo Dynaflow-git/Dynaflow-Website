@@ -95,19 +95,19 @@ img {
   cursor: pointer;
 }
 
-.nav{
+.nav {
   display: block;
 }
 
-.nav.active{
+.nav.active {
   display: block;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
-.header__logo img{
+.header__logo img {
   display: none;
 }
 
@@ -120,7 +120,7 @@ img {
   width: 100%;
 }
 
-.nav__close {
+/* .nav__close {
   position: absolute;
   right: 1.5rem;
   font-size: 1.3rem;
@@ -128,7 +128,7 @@ img {
   background-color: var(--dark-color-alt);
   border-radius: 50%;
   cursor: pointer;
-}
+} */
 
 .nav__name {
   display: block;
@@ -396,7 +396,6 @@ img {
     height: calc(var(--header-height) + 1rem);
   }
 
-  
   .header__toggle {
     display: none;
   }
