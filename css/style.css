@@ -95,6 +95,18 @@ img {
   cursor: pointer;
 }
 
+.nav{
+  display: block;
+}
+
+.hidden{
+  display: none;
+}
+
+.header__logo img{
+  display: none;
+}
+
 .nav__content {
   height: 100%;
   -ms-grid-rows: max-content 3fr max-content;

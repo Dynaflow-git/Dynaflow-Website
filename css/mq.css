@@ -128,6 +128,11 @@
     z-index: var(--z-fixed);
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    display: none;
+  }
+
+  .nav.active{
+    display: block;
   }
 
   .nav__menu {
@@ -165,8 +170,8 @@
 
   .header__logo img {
     display: block;
-    width: 100px;
-    height: 50px;
+    width: 215px;
+    height: 100px;
     visibility: visible;
     opacity: 1;
   }
@@ -219,7 +224,7 @@
   }
 
   .header__toggle {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--dark-color-alt);
     cursor: pointer;
     display: block;

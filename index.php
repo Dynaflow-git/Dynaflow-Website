@@ -31,7 +31,6 @@
             <img src="./image/DF LOGO.png" alt="Dynaflow Logo">
         </a>
 
-
         <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
 
         <nav class="nav" id="nav-menu">
@@ -319,14 +318,19 @@
         });
     </script>
 
-    <!-- <script>
+    <script>
         const closeButton = document.getElementById('nav-close');
-        const navMenu = document.querySelector('.nav'); // Assuming the nav menu has a 'nav' class
+        const navMenu = document.querySelector('.nav');
+        const navToggle = document.getElementById('nav-toggle');
 
         closeButton.addEventListener('click', function() {
-            navMenu.classList.add('hidden'); // Add a hidden class to hide the menu
+            navMenu.classList.add('hidden');
         });
-    </script> -->
+
+        navToggle.addEventListener('click', function() {
+            navMenu.classList.remove('hidden');
+        });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
