@@ -7,21 +7,19 @@
     <title>Dynaflow Industrial Supply</title>
     <link rel="icon" type="image/png" href="./image/Frame 1.png">
 
-    <link href="./css//content.css" rel="stylesheet">
-    <link href="./css//style.css" rel="stylesheet">
-    <link href="./css//mq.css" rel="stylesheet">
+    <!-- css stylesheets  -->
+    <link href="./css/content.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/mq.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
-
+    <!-- font-awesome  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <style>
-        /* .hero-image{
-            height: 80vh;
-        } */
-    </style>
+    <!-- Bootstrap 5.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -61,6 +59,7 @@
             </div>
         </nav>
     </header>
+
     <div class="hero-image" id="home">
         <img src="./image/Frame2.jpg" alt="image" class="cover-image">
         <div class="text-header">
@@ -127,7 +126,7 @@
             <img src="./image/suppliers/metal_seal_precision_logo.png">
             <img src="./image/suppliers/morgan-thermal-ceramics.png">
             <img src="./image/suppliers/nordson.PNG.png">
-            <img src="./image/suppliers/orbitalum-tools-gmbh-logo-vector.png">
+            <!-- <img src="./image/suppliers/orbitalum-tools-gmbh-logo-vector.png"> -->
             <img src="./image/suppliers/posiflate.png">
             <img src="./image/suppliers/thermaflex-logo-4c_ohne-schatten_R-0de8d9df-980x350.png">
             <img src="./image/suppliers/thumb_26542_Nutex-Equipment-Supply.png">
@@ -317,18 +316,17 @@
         });
     </script>
 
-    <script>
+    <!-- <script>
         const closeButton = document.getElementById('nav-close');
         const navMenu = document.querySelector('.nav'); // Assuming the nav menu has a 'nav' class
 
         closeButton.addEventListener('click', function() {
             navMenu.classList.add('hidden'); // Add a hidden class to hide the menu
         });
-    </script>
+    </script> -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
