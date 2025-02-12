@@ -35,8 +35,7 @@
 
         <nav class="nav hidden" id="nav-menu">
             <div class="nav__content bd-grid">
-                <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
-
+                <ion-icon name="close-circle" class="nav__close" id="nav-close"></ion-icon>
                 <div class="nav__perfil">
                     <div>
                         <a href="#home" class="nav__name">
