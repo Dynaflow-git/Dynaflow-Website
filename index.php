@@ -323,12 +323,14 @@
         const navMenu = document.querySelector('.nav');
         const navToggle = document.getElementById('nav-toggle');
 
+        // Close the nav menu when the close button is clicked
         closeButton.addEventListener('click', function() {
-            navMenu.classList.add('hidden');
+            navMenu.classList.remove('active'); // Hide the nav menu
         });
 
+        // Open the nav menu when the hamburger (menu) icon is clicked
         navToggle.addEventListener('click', function() {
-            navMenu.classList.remove('hidden');
+            navMenu.classList.add('active'); // Show the nav menu
         });
     </script>
 

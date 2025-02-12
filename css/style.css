@@ -99,6 +99,10 @@ img {
   display: block;
 }
 
+.nav.active{
+  display: block;
+}
+
 .hidden{
   display: none;
 }
