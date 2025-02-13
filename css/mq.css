@@ -27,9 +27,13 @@
     font-size: 1em;
   }
 
+  .text-header {
+    height: 100%;
+  }
+
   .text-header p {
     font-size: 2rem;
-    margin-top: 30px;
+    margin-top: 80px;
   }
 
   .btn {
@@ -79,8 +83,12 @@
     max-height: 70vh;
     height: 65vh;
   }
+
+  .text-header{
+    height: 100%;
+  }
   .text-header p {
-    margin-top: 25px;
+    margin-top: 80px;
   }
   .row {
     height: 60%;
