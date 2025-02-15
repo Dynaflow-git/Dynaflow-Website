@@ -84,7 +84,7 @@
     height: 65vh;
   }
 
-  .text-header{
+  .text-header {
     height: 100%;
   }
   .text-header p {
@@ -212,14 +212,30 @@
   }
 
   .nav__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
   }
 
   .nav__list li.active a {
     color: #fc5e09;
     font-weight: bold;
+  }
+
+  .nav__list li {
+    text-align: center;
+  }
+
+  .nav__link img {
+    filter: invert(1);
+    height: 25px;
+  }
+
+  .nav__list a {
+    color: #fff;
+    font-size: 19px;
   }
 
   .nav__item {
@@ -229,6 +245,10 @@
   .nav__link {
     padding: 0.5rem 0.8rem;
     border-radius: 0.25rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
   }
 
   .nav__link:hover {
@@ -329,7 +349,7 @@
     height: calc(var(--header-height) + 1rem);
   }
 
-  .footer-logo img{
+  .footer-logo img {
     height: auto;
     width: 50%;
   }

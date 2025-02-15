@@ -42,10 +42,6 @@
                             <img src="./image//DF LOGO.png">
                         </a>
                     </div>
-
-
-
-
                 </div>
                 <div class="nav__menu" id="sidebar">
                     <div class="nav__listed">
@@ -320,22 +316,18 @@
 
     <!-- active link -->
     <script>
-        // Get all navigation links
         const navLinks = document.querySelectorAll('.nav__link');
 
-        // Function to remove active class from all links
         function removeActiveClass() {
             navLinks.forEach(link => {
                 link.parentElement.classList.remove('active');
             });
         }
 
-        // Add click event listener to each link
         navLinks.forEach(link => {
-            link.addEventListener('click', function() {
-                removeActiveClass(); // Remove active class from all links
-                link.parentElement.classList.add(
-                    'active'); // Add active class to the clicked link's parent <li>
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navMenu.classList.add('sidebar-open');
             });
         });
     </script>
