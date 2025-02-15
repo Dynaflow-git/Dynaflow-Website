@@ -290,7 +290,7 @@
   }
 
   #input-form {
-    width: 150%;
+    width: 180%;
   }
 
   .touchmenot button {
@@ -312,6 +312,25 @@
 
   .footer-logo img {
     height: 130%;
+    width: 63%;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+  }
+  body {
+    margin: 0;
+  }
+
+  .header {
+    height: calc(var(--header-height) + 1rem);
+  }
+
+  .footer-logo img{
+    height: auto;
     width: 50%;
   }
 }
