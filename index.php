@@ -45,7 +45,7 @@
 
 
 
-                    
+
                 </div>
                 <div class="nav__menu" id="sidebar">
                     <div class="nav__listed">
@@ -67,7 +67,7 @@
 
 
     <div class="hero-image" id="home">
-        <img src="./image/Frame2.jpg" alt="image" class="cover-image">
+        <img src="./image/bg.jpg" alt="image" class="cover-image">
         <div class="text-header">
 
             <p class="fw-bolder">Connecting you to a world of Product <br>
@@ -275,7 +275,7 @@
             </div> -->
 
         </div>
-    </footer>   
+    </footer>
 
     <!-- toogle -->
     <script>
