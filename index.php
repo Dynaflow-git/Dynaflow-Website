@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynaflow Industrial Supply</title>
-    <link rel="icon" type="image/png" href="./image/Frame 1.png">
+    <link rel="icon" type="image/png" href="./image/svglogo.svg">
 
     <!-- css stylesheets  -->
     <link href="./css/content.css" rel="stylesheet">
