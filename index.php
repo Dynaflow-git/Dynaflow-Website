@@ -332,6 +332,49 @@
         });
     </script>
 
+    <!-- lock inspect -->
+    <script>
+        // Disable right-click context menu
+        // document.addEventListener('contextmenu', function(e) {
+        //     e.preventDefault();
+        // });
+
+        // // Disable keyboard shortcuts and dev tools
+        // document.addEventListener('keydown', function(e) {
+        //     if (
+        //         // Disable F12
+        //         e.keyCode === 123 ||
+        //         // Disable Ctrl+Shift+I
+        //         (e.ctrlKey && e.shiftKey && e.keyCode === 73) ||
+        //         // Disable Ctrl+Shift+J
+        //         (e.ctrlKey && e.shiftKey && e.keyCode === 74) ||
+        //         // Disable Ctrl+U
+        //         (e.ctrlKey && e.keyCode === 85)
+        //     ) {
+        //         e.preventDefault();
+        //         return false;
+        //     }
+        // });
+
+        // Disable DevTools
+
+        // Disable source view
+        // document.onkeydown = function(e) {
+        //     if (e.ctrlKey &&
+        //         (e.keyCode === 85 || e.keyCode === 83 || e.keyCode === 73)) {
+        //         return false;
+        //     }
+        // };
+
+        // // Clear console periodically
+        // setInterval(() => {
+        //     console.clear();
+        //     console.log('%cWarning!', 'color: red; font-size: 30px; font-weight: bold;');
+        //     console.log('%cThis website is protected!', 'font-size: 20px;');
+        // }, 1000);
+    </script>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
